@@ -1,0 +1,104 @@
+/* Base styling for Testimonials Section */
+.testimonials-section {
+    position: relative;
+    padding: 2rem;
+    background: #f4faff; /* Light blue background */
+    border-top: 1px solid #e2eafc; /* Light blue border on top */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    max-width: 100%; /* Ensure it takes full width */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text inside */
+}
+
+/* Heading for Testimonials Section */
+.testimonials-heading {
+    color: #002d72; /* Dark blue color */
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 2rem 0; /* Space below heading */
+}
+
+/* Container for Testimonial Cards */
+.testimonials-container {
+    display: flex;
+    flex-direction: column; /* Stack testimonials vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 1rem; /* Space between cards */
+    padding: 0;
+    width: 100%; /* Full width container */
+}
+
+/* Individual Testimonial Card */
+.testimonial-card {
+    background-color: #ffffff; /* White background */
+    border: 2px solid #0056b3; /* Blue border */
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 250px; /* Minimum width for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 90%; /* Adjust width for better fit on small screens */
+    max-width: 500px; /* Max width for larger screens */
+}
+
+/* Testimonial Image */
+.testimonial-image {
+    width: 80px; /* Smaller image size for mobile */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Content inside Testimonial Card */
+.testimonial-content {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Feedback Text */
+.testimonial-feedback {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+    color: #333;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+/* Author Name */
+.testimonial-author {
+    font-weight: 500;
+    color: #002d72; /* Dark blue color */
+}
+
+/* Responsive Adjustments for Mobile View */
+@media (max-width: 768px) {
+    .testimonials-section {
+        padding: 1rem; /* Reduced padding for mobile */
+    }
+
+    .testimonials-heading {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+        margin-bottom: 1rem; /* Reduced margin below heading */
+    }
+
+    .testimonials-container {
+        gap: 1rem; /* Maintain space between cards */
+    }
+
+    .testimonial-card {
+        padding: 0.75rem; /* Adjust padding for mobile */
+        width: 95%; /* Full width within container */
+    }
+
+    .testimonial-image {
+        width: 60px; /* Further reduce image size for mobile */
+        height: 60px;
+    }
+
+    .testimonial-feedback {
+        font-size: 0.8rem; /* Further reduce font size for better readability */
+    }
+}
