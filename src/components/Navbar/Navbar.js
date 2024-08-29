@@ -9,7 +9,7 @@ function Navbar() {
     <nav>
       <img className="nav-img" src={logo}></img>
       <ul className='nav-ul'>
-        <li className='nav-li'><a href="#">Home</a></li>
+        <li className='nav-li'><Link to="/">Home</Link></li>
         <li className='nav-li'><a href="#">Team</a></li>
         <li className='nav-li'><a href="#">Events</a></li>
         <li className='nav-li'><a href="#">Techboard</a></li>

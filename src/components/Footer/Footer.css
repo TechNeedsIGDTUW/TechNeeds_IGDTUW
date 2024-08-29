@@ -28,7 +28,7 @@ body {
     border-radius: 100%;
     animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s),
                bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
-    transform: translate(-50%, 100%);
+    transform: translate(-150%, 100%);
 }
 
 .content {
@@ -38,11 +38,13 @@ body {
     grid-gap: 4rem;
     padding: 2rem;
     background: var(--footer-background);
+    overflow-x: hidden;
 }
 
 a, p {
     color: #F5F7FA;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 b {
@@ -94,5 +96,16 @@ p {
     }
     100% {
         bottom: var(--distance, 10rem);
+    }
+}
+@media (max-width: 768px){
+    a, p {
+        color: #F5F7FA;
+        text-decoration: none;
+        font-size: 1rem;
+        display: block;
+    }
+    b{
+        font-size: 1.5rem;
     }
 }

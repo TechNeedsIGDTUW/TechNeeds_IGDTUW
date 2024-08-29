@@ -20,8 +20,8 @@ import Glimpse from "../../assets/Glimpse.png";
 
 
 const courses = [
-  { title: 'Web Development', instructor: 'Vidhusi Aggarwal', image: Web, backgroundColor: '#bfffd4' },
-  { title: 'App Development', instructor: 'Someone Famous', image: app, backgroundColor: '#f6d8ff' },
+  { title: 'Web Development', instructor: 'Vidusi Agarwal', image: Web, backgroundColor: '#bfffd4' },
+  { title: 'App Development', instructor: 'Sunishka', image: app, backgroundColor: '#f6d8ff' },
   { title: 'DSA in C/C++', instructor: 'Shefali', image: C, backgroundColor: '#ffe8c9' },
   { title: 'Machine Learning', instructor: 'Sripriya Aggarwal', image: ML, backgroundColor: '#ffecf4' },
   { title: 'AR/VR Mentorship', instructor: 'Snighdha', image: AR, backgroundColor: '#d4f5ff' },
