@@ -1,147 +1,34 @@
 .bgbox {
-    background: linear-gradient(to right, #0000d5, #030193);/* Purple background color */
+    background: linear-gradient(to right, rgba(133, 133, 247, 0.7), rgba(125, 122, 255, 0.7), rgba(96, 94, 234, 0.7));
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
     padding: 50px 0;
-    /* Take the full width of the content */
-    display: flex; /* Make it a flex container */
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center the content horizontally */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
     min-height: 100vh; 
     border-radius: 2rem;
     margin-left: 60px;
     margin-right: 60px;
-    position: relative; /* Add this to make the bubbles relative to the bgbox */
-    overflow: hidden; /* Add this to hide the bubbles when they go outside the bgbox */
+    position: relative;
+    overflow: hidden; 
   }
   
   .bgbox-wrapper {
     margin-bottom: 4rem; /* add margin bottom to create space */
   }
   
-  .bubbles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    top: 0;
-    left: 0;
-  }
-  
-  .bubble {
-    position: absolute;
-    bottom: -100px;
-    width: 40px;
-    height: 40px;
-    background: #ffffff;
-    border-radius: 50%;
-    opacity: 0.5;
-    animation: rise 15s infinite ease-in; /* Increased animation duration to 15s */
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* Changed the animation timing function to make the bubbles accelerate faster */
-  }
-  
-  .bubble:nth-child(1) {
-    width: 40px;
-    height: 40px;
-    left: 10%;
-    animation-duration: 12s; /* Increased animation duration to 12s */
-  }
-  
-  .bubble:nth-child(2) {
-    width: 20px;
-    height: 20px;
-    left: 20%;
-    animation-duration: 15s; /* Increased animation duration to 15s */
-    animation-delay: 1s;
-  }
-  
-  .bubble:nth-child(3) {
-    width: 50px;
-    height: 50px;
-    left: 35%;
-    animation-duration: 18s; /* Increased animation duration to 18s */
-    animation-delay: 2s;
-  }
-  
-  .bubble:nth-child(4) {
-    width: 80px;
-    height: 80px;
-    left: 50%;
-    animation-duration: 20s; /* Increased animation duration to 20s */
-    animation-delay: 1s;
-  }
-  
-  .bubble:nth-child(5) {
-    width: 35px;
-    height: 35px;
-    left: 55%;
-    animation-duration: 16s; /* Increased animation duration to 16s */
-    animation-delay: 2s;
-  }
-  
-  .bubble:nth-child(6) {
-    width: 45px;
-    height: 45px;
-    left: 65%;
-    animation-duration: 19s; /* Increased animation duration to 19s */
-    animation-delay: 3s;
-  }
-  
-  .bubble:nth-child(7) {
-    width: 90px;
-    height: 90px;
-    left: 70%;
-    animation-duration: 22s; /* Increased animation duration to 22s */
-    animation-delay: 2s;
-  }
-  
-  .bubble:nth-child(8) {
-    width: 25px;
-    height: 25px;
-    left: 80%;
-    animation-duration: 17s; /* Increased animation duration to 17s */
-    animation-delay: 3s;
-  }
-  
-  .bubble:nth-child(9) {
-    width: 15px;
-    height: 15px;
-    left: 70%;
-    animation-duration: 14s; /* Increased animation duration to 14s */
-    animation-delay: 2s;
-  }
-  
-  .bubble:nth-child(10) {
-    width: 90px;
-    height: 90px;
-    left: 25%;
-    animation-duration: 21s; /* Increased animation duration to 21s */
-    animation-delay: 4s;
-  }
-  
-  @keyframes rise {
-    0% {
-      bottom: -100px;
-      transform: translateX(0);
-    }
-    50% {
-      transform: translate(150px); /* Increased the translation to make the bubbles move faster */
-    }
-    100% {
-      bottom: 100vh; /* Change this to 100vh to make the bubbles disappear at the top of the bgbox */
-      transform: translateX(-250px); /* Increased the translation to make the bubbles move faster */
-    }
-  }
   
   
   /* Flexbox layout for team members */
   
-  .heading{
-    font-size: 4rem;
+  /* .heading{
+    font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #ffffff;
     text-decoration: underline;
-  }
+  } */
   
   .meet-our-team:hover .heading {
     transform: scale(1.1);
@@ -153,21 +40,15 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
-    padding-left: 4rem;
     color: azure;
   }
   
-  
-  
-  
-  
-  
   .card {
-    background-color: #e0e0e1;
+    background: linear-gradient(to right, rgba(133, 133, 247, 0.7), rgba(125, 122, 255, 0.7), rgba(96, 94, 234, 0.7));
     border-radius: 1rem;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     margin: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(180, 179, 238, 0.1);
     transition: transform 0.3s ease;
     width: 280.137px; 
     height: 387.387px;
@@ -335,9 +216,17 @@
   }
   /* General heading styling */
   .heading {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #ffffff;
   }
-  
+  @media (max-width: 768px){
+    .heading{
+        font-size: 2rem;
+    }
+    .team-member-role{
+        font-size: 1.3rem;
+    }
+  }

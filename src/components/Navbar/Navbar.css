@@ -60,7 +60,7 @@ body {
 }
 
 .nav-ul .nav-li a:hover {
-  color: white;
+  color: rgb(8, 149, 201);
 }
 
 .nav-ul .anv-li a::after {

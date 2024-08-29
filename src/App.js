@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
 import Test from './pages/test';
-import MeetOurTeam from './pages/team'; // Import the FAQ page
-
+import MeetOurTeam from './pages/team'; 
 function App() {
   return (
     <Router>

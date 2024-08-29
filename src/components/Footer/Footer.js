@@ -36,35 +36,33 @@ function Footer() {
         <div className="content">
           <div>
             <div>
-              <b>Eldew</b>
-              <a href="#">Secuce</a>
-              <a href="#">Drupand</a>
-              <a href="#">Oceash</a>
-              <a href="#">Ugefe</a>
-              <a href="#">Babed</a>
+              <b>Web Development</b>
+              <a href="#">Resouces</a>
+              <a href="#">Trackersheet</a>
+              <a href="#">Projects</a>
+              <a href="#">Open Source</a>
             </div>
             <div>
-              <b>Spotha</b>
-              <a href="#">Miskasa</a>
-              <a href="#">Agithe</a>
-              <a href="#">Scesha</a>
-              <a href="#">Lulle</a>
+              <b>Machine Learning</b>
+              <a href="#">Resouces</a>
+              <a href="#">Trackersheet</a>
+              <a href="#">Projects</a>
+              <a href="#">Open Source</a>
             </div>
             <div>
-              <b>Chashakib</b>
-              <a href="#">Chogauw</a>
-              <a href="#">Phachuled</a>
-              <a href="#">Tiebeft</a>
-              <a href="#">Ocid</a>
-              <a href="#">Izom</a>
-              <a href="#">Ort</a>
+              <b>DSA</b>
+              <a href="#">Resouces</a>
+              <a href="#">Trackersheet</a>
+              <a href="#">Contests</a>
+              <a href="#">Practice Sheets</a>
+              <a href="#">Strivers Sheet</a>
             </div>
             <div>
-              <b>Athod</b>
-              <a href="#">Pamuz</a>
-              <a href="#">Vapert</a>
-              <a href="#">Neesk</a>
-              <a href="#">Omemanen</a>
+              <b>AR/VR</b>
+              <a href="#">Resouces</a>
+              <a href="#">Trackersheet</a>
+              <a href="#">Projects</a>
+              <a href="#">Open Source</a>
             </div>
           </div>
           <div>
@@ -77,7 +75,7 @@ function Footer() {
                 backgroundImage: 'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")'
               }}
             ></a>
-            <p>©2019 Not Really</p>
+            <p>©TechNeds</p>
           </div>
         </div>
       </div>

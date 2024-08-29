@@ -1,0 +1,159 @@
+/* mobile.css */
+
+.mobile-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.wrapper {
+  position: fixed; /* Use fixed positioning to keep the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px; /* Set the height of the navbar */
+  z-index: 9999;
+  background-color: #fff; /* Set the background color to white */
+  
+}
+
+.menu-navigation {
+  position: relative;
+  height: 100%;
+}
+
+.menu-icon-toggle {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0; /* Align the icon to the top */
+  right: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menu-icon-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #417dc1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: opacity 0.3s;
+}
+
+.menu-icon-toggle::before,
+.menu-icon-toggle::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #417dc1;
+  position: absolute;
+  transition: transform 0.3s, top 0.3s, bottom 0.3s;
+}
+
+.menu-icon-toggle::before {
+  top: 6px;
+}
+
+.menu-icon-toggle::after {
+  bottom: 6px;
+}
+
+.menu-icon-toggle.open span {
+  opacity: 0;
+}
+
+.menu-icon-toggle.open::before {
+  transform: rotate(45deg);
+  top: 50%;
+}
+
+.menu-icon-toggle.open::after {
+  transform: rotate(-45deg);
+  bottom: 50%;
+}
+
+.menu-background {
+  position: absolute;
+  width: 300%;
+  height: 250px;
+  left: -130%;
+  background-color: #fff;
+  transition: background-position 0.5s, transform 0.5s;
+}
+
+.menu-background.top {
+  transform: rotate(-45deg) translateY(-150%);
+  background: linear-gradient(to top, #6191d1 50%, #fff 50%);
+}
+
+.menu-background.middle {
+  transform: rotate(-45deg) translateY(50%) scaleY(0);
+  background: #fff;
+}
+
+.menu-background.bottom {
+  transform: rotate(-45deg) translateY(250%);
+  background: linear-gradient(to bottom, #fff 50%, #6191d1 50%);
+}
+
+.menu.open .menu-background.top {
+  transform: rotate(-45deg) translateY(-49%);
+  background-position: 0 0;
+}
+
+.menu.open .menu-background.middle {
+  transform: rotate(-45deg) translateY(50%) scaleY(1);
+}
+
+.menu.open .menu-background.bottom {
+  transform: rotate(-45deg) translateY(149%);
+  background-position: 0 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.menu.open {
+  display: block;
+}
+
+.menu li {
+  opacity: 0;
+  margin: 10px 0;
+  transform: translateX(20px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu.open li {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #6191d1;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  background-color: #f1f1f1;
+}

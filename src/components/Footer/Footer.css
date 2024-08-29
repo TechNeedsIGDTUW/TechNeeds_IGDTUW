@@ -46,6 +46,10 @@ a, p {
     text-decoration: none;
     margin-left: 20px;
 }
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 26, 74);
+}
 
 b {
     color: white;
@@ -65,7 +69,9 @@ p {
 .content > div > div {
     margin: 0.25rem 0;
 }
-
+.content > div > div{
+    margin: 0.25rem 0;
+}
 .content > div > div > * {
     margin-right: 0rem;
 }
