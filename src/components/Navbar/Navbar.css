@@ -1,10 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lacquer', sans-serif;
 }
 
-ul {
+.nav-ul {
   position: absolute;
   top: 5%;
   left: 80%;
@@ -13,21 +12,22 @@ ul {
   padding: 0;
   display: flex;
   flex-direction: row; /* Default layout */
+  font-family: 'Lacquer', sans-serif;
 }
-img{
+.nav-img{
   height:80px;
 }
-ul li {
+.nav-ul .nav-li {
   list-style: none;
   font-size: 1.2rem;
 }
 
-ul li:hover {
+.nav-ul .nav-li:hover {
   transition: 0.5s;
   transform: scale(1.12);
 }
 
-ul li a::before {
+.nav-ul .nav-li a::before {
   content: '';
   position: absolute;
   top: 0;
@@ -42,12 +42,12 @@ ul li a::before {
   z-index: -1;
 }
 
-ul li a:hover:before {
+.nav-ul .nav-li a:hover:before {
   transform: scaleY(1.2);
   opacity: 1;
 }
 
-ul li a {
+.nav-ul .nav-li a {
   text-decoration: none;
   position: relative;
   padding: 10px 20px;
@@ -59,11 +59,11 @@ ul li a {
   display: block;
 }
 
-ul li a:hover {
+.nav-ul .nav-li a:hover {
   color: white;
 }
 
-ul li a::after {
+.nav-ul .anv-li a::after {
   content: '';
   position: absolute;
   top: 1px;
@@ -76,40 +76,40 @@ ul li a::after {
   z-index: -1;
 }
 
-ul li a:hover:after {
+.nav-ul .nav-li a:hover:after {
   transform: scale(1);
 }
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-  ul {
+  .nav-ul {
     flex-direction: column; /* Stack items vertically */
     top: 10%;
     left: 80%;
     transform: translate(-50%, -50%);
   }
 
-  ul li {
+  .nav-ul .nav-li {
     font-size: 1rem; /* Smaller font size */
   }
 
-  ul li a {
+  .nav-ul .nav-li a {
     padding: 8px 15px;
     margin: 10px 0;
   }
 }
 
 @media (max-width: 480px) {
-  ul {
+  .nav-ul {
     top: 15%;
     left: 80%;
   }
 
-  ul li {
+  .nav-ul .nav-li {
     font-size: 0.9rem; /* Even smaller font size */
   }
 
-  ul li a {
+  .nav-ul .nav-li a {
     padding: 6px 10px;
     margin: 8px 0;
   }

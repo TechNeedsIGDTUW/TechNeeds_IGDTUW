@@ -1,0 +1,94 @@
+.svg-container {
+  background-color: #83dffd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  overflow: hidden;
+}
+
+  svg {
+    object-fit: cover;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    height: 100%;
+     width: 100%;
+  }
+
+.tri-1 {
+  fill: #728acb;
+}
+
+.tri-2 {
+  fill: #7aa3e2;
+}
+
+.tri-3 {
+  fill: #609ee1;
+}
+
+.tri-4 {
+  fill: #53a7e8;
+}
+
+.tri-5 {
+  fill: #59b9ec;
+}
+
+.tri-6 {
+  fill: #53c2f1;
+}
+
+.tri-7 {
+  fill: #83dffd;
+}
+
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .svg-container {
+    border-radius: 15px;
+  }
+
+  svg {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .svg-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.05); 
+    border-radius: 15px;
+  }
+}

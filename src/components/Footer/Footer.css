@@ -1,15 +1,7 @@
 body {
-    display: grid;
-    top: 100%;
-    grid-template-rows: 1fr 10rem auto;
-    grid-template-areas: "main" "." "footer";
     overflow-x: hidden;
-    background: #F5F7FA;
-    min-height: 100vh;
 }
-.main{
-    margin-top:100vh;
-}
+
 .footer {
     z-index: 1;
     --footer-background: #7777fe;
@@ -73,7 +65,7 @@ p {
 }
 
 .content > div > div > * {
-    margin-right: 0.5rem;
+    margin-right: 0rem;
 }
 
 .image {
