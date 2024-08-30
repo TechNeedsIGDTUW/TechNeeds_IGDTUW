@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import Slider from './Slider.js';
 import 'swiper/css/navigation';
 import Wave from "react-wavify";
 import { Navigation, Pagination,EffectCoverflow} from 'swiper/modules';
@@ -115,6 +116,7 @@ const Event=()=>{
         </div>
       </Swiper>
         </div>
+        <Slider/>
     </div>;
 };
 
