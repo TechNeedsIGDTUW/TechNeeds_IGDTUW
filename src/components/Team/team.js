@@ -88,7 +88,7 @@ function MeetOurTeam() {
           <div className="card">
           <div className="team-member">
             <div className="image-container">
-              <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724960312/WhatsApp_Image_2024-08-30_at_1.03.00_AM_tcbd0z.jpg"} alt="Chanda Jha avatar" />
+              <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724992377/58cc173a-2806-4dd4-9426-f37bafd91105_lekkdl.jpg"} alt="Chanda Jha avatar" />
               <div className="social-media-icons">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
@@ -131,7 +131,7 @@ function MeetOurTeam() {
     <div className="card">  
     <div className="team-member">
       <div className="image-container">
-        <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724958158/Sripriya_pmb4uw.jpg"} alt="Sripriya Agarwal  avatar" />
+        <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724992510/b4eacac2-e23f-41b1-8ce1-69334b7dd27f_gztkzv.jpg"} alt="Sripriya Agarwal  avatar" />
         <div className="social-media-icons">
           <a href="https://www.linkedin.com/in/sripriya-agarwal-483475261" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
@@ -169,7 +169,7 @@ function MeetOurTeam() {
           <div className="card">
           <div className="team-member">
             <div className="image-container">
-              <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724960312/WhatsApp_Image_2024-08-30_at_1.03.00_AM_tcbd0z.jpg"} alt="Nishtha avatar" />
+              <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724992512/457d837e-884f-492f-a65c-71f359561761_srpjrj.jpg"} alt="Nishtha avatar" />
               <div className="social-media-icons">
                 <a href="https://www.linkedin.com/in/nishtha-gupta-ng25" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
