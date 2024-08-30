@@ -67,7 +67,7 @@ function MeetOurTeam() {
           <div className="card">
           <div className="team-member">
             <div className="image-container">
-              <img className="rounded-avatar" src={"https://res.cloudinary.com/dcec61lxq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_blue,b_rgb:262c35/v1724960312/WhatsApp_Image_2024-08-30_at_1.03.00_AM_tcbd0z.jpg"} alt="Avni Singh avatar" />
+              <img className="rounded-avatar" src={"https://res.cloudinary.com/dzwfmydmx/image/upload/v1724998586/photo_6235583440917479616_x_vnz0tk.jpg"} alt="Avni Singh avatar" />
               <div className="social-media-icons">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
